@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/t_25"
+        android:title="songs" />
+    <item
+        android:id="@+id/t_100"
+        android:title="apps" />
+    <item
+        android:id="@+id/t_200"
+        android:title="top 200" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="Switch"
+        app:actionLayout="@layout/switch_item" >
+    </item>
+    <group>
+        <item android:title="Item" />
+        <item android:title="Item" />
+        <item android:title="Item" />
+    </group>
+</menu>
